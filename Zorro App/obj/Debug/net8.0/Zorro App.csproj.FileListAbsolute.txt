@@ -1,0 +1,15 @@
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/bin/Debug/net8.0/Zorro App
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/bin/Debug/net8.0/Zorro App.deps.json
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/bin/Debug/net8.0/Zorro App.runtimeconfig.json
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/bin/Debug/net8.0/Zorro App.dll
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/bin/Debug/net8.0/Zorro App.pdb
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/Zorro App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/Zorro App.AssemblyInfoInputs.cache
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/Zorro App.AssemblyInfo.cs
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/Zorro App.csproj.CoreCompileInputs.cache
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/Zorro App.sourcelink.json
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/Zorro App.dll
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/refint/Zorro App.dll
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/Zorro App.pdb
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/Zorro App.genruntimeconfig.cache
+/Users/jarmstrong/Desktop/repos/Zorro/Zorro App/obj/Debug/net8.0/ref/Zorro App.dll

@@ -1,0 +1,15 @@
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/bin/Debug/net8.0/FactoryPatternPrac
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/bin/Debug/net8.0/FactoryPatternPrac.deps.json
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/bin/Debug/net8.0/FactoryPatternPrac.runtimeconfig.json
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/bin/Debug/net8.0/FactoryPatternPrac.dll
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/bin/Debug/net8.0/FactoryPatternPrac.pdb
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/FactoryPatternPrac.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/FactoryPatternPrac.AssemblyInfoInputs.cache
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/FactoryPatternPrac.AssemblyInfo.cs
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/FactoryPatternPrac.csproj.CoreCompileInputs.cache
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/FactoryPatternPrac.sourcelink.json
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/FactoryPatternPrac.dll
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/refint/FactoryPatternPrac.dll
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/FactoryPatternPrac.pdb
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/FactoryPatternPrac.genruntimeconfig.cache
+/Users/jarmstrong/Desktop/repos/Zorro/FactoryPatternPrac/obj/Debug/net8.0/ref/FactoryPatternPrac.dll
