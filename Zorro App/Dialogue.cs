@@ -42,6 +42,7 @@ public class Dialogue
                     i = false;
                     Console.Clear();
                     break;
+                
                 default:
                     Console.WriteLine("Invalid option. Please enter 1, 2, or 3");
                     Thread.Sleep(2000);
@@ -55,23 +56,43 @@ public class Dialogue
     static Activity CreateActivity(string type)
     {
         Console.Write("Enter the date of the activity (MM-dd-yyyy): ");
-        var date = DateTime.Parse(Console.ReadLine());
+        var dateSuccess = DateTime.TryParse(Console.ReadLine(), out var date );
+        while (!dateSuccess)
+        {
+            Console.WriteLine("Date Entry Error // Please use the correct format (MM-DD-YYYY): ");
+            dateSuccess = DateTime.TryParse(Console.ReadLine(), out date );
+        }
 
         Console.Write("Enter the location: ");
         var location = Console.ReadLine();
 
         Console.Write("Enter the distance in miles: ");
-        var miles = double.Parse(Console.ReadLine());
+        var mileageSuccess = double.TryParse(Console.ReadLine(), out var mileage);
+        while (!mileageSuccess)
+        {
+            Console.WriteLine("Data Entry Error // Please enter a number: ");
+            mileageSuccess = double.TryParse(Console.ReadLine(), out mileage );
+        }
 
         Console.Write("Enter the elevation gain in feet: ");
-        var elevation = int.Parse(Console.ReadLine());
+        var eleSuccess = double.TryParse(Console.ReadLine(), out var elevation);
+        while (!eleSuccess)
+        {
+            Console.WriteLine("Data Entry Error // Please enter numbers only: ");
+            eleSuccess = double.TryParse(Console.ReadLine(), out elevation);
+        }
 
         Console.Write("Enter the total time in minutes: ");
-        var minutes = int.Parse(Console.ReadLine());
+        var minutesSuccess = double.TryParse(Console.ReadLine(), out var minutes);
+        while (!mileageSuccess)
+        {
+            Console.WriteLine("Data Entry Error // Please enter numbers only: ");
+            mileageSuccess = double.TryParse(Console.ReadLine(), out minutes);
+        }
 
-        var pace = minutes / miles;
+        var pace = minutes / mileage;
 
-        return new Activity(type, date, location, miles, minutes, elevation, pace);
+        return new Activity(type, date, location, mileage, minutes, elevation, pace);
     }
     
     public static void PressEnter()
