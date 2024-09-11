@@ -59,8 +59,9 @@ public class Dialogue
         var dateSuccess = DateTime.TryParse(Console.ReadLine(), out var date );
         while (!dateSuccess)
         {
-            Console.WriteLine("Date Entry Error // Please use the correct format (MM-DD-YYYY): ");
+            Console.Write("Date Entry Error // Please use the correct format (MM-DD-YYYY): ");
             dateSuccess = DateTime.TryParse(Console.ReadLine(), out date );
+            Console.WriteLine();
         }
 
         Console.Write("Enter the location: ");
@@ -70,24 +71,27 @@ public class Dialogue
         var mileageSuccess = double.TryParse(Console.ReadLine(), out var mileage);
         while (!mileageSuccess)
         {
-            Console.WriteLine("Data Entry Error // Please enter a number: ");
+            Console.Write("Data Entry Error // Please enter a number: ");
             mileageSuccess = double.TryParse(Console.ReadLine(), out mileage );
+            Console.WriteLine();
         }
 
         Console.Write("Enter the elevation gain in feet: ");
         var eleSuccess = double.TryParse(Console.ReadLine(), out var elevation);
         while (!eleSuccess)
         {
-            Console.WriteLine("Data Entry Error // Please enter numbers only: ");
+            Console.Write("Data Entry Error // Please enter numbers only: ");
             eleSuccess = double.TryParse(Console.ReadLine(), out elevation);
+            Console.WriteLine();
         }
 
         Console.Write("Enter the total time in minutes: ");
         var minutesSuccess = double.TryParse(Console.ReadLine(), out var minutes);
         while (!mileageSuccess)
         {
-            Console.WriteLine("Data Entry Error // Please enter numbers only: ");
+            Console.Write("Data Entry Error // Please enter numbers only: ");
             mileageSuccess = double.TryParse(Console.ReadLine(), out minutes);
+            Console.WriteLine();
         }
 
         var pace = minutes / mileage;
@@ -97,7 +101,7 @@ public class Dialogue
     
     public static void PressEnter()
     {
-        Console.WriteLine("(Press ENTER to continue.)");
+        Console.WriteLine("(Press ENTER to continue)");
         Console.ReadKey();
         Console.WriteLine();
     }

@@ -13,7 +13,10 @@ public class App
             while (start.ToLower() != "y" && start.ToLower() != "n")
             {
                 Console.WriteLine("Sorry that is not an option");
+                Thread.Sleep(2000);
                 Console.Clear();
+                Console.Write("Would you like to use the Zorro App? (Y/N) ");
+                start = Console.ReadLine();
             }
 
             if (start.ToLower() == "n")

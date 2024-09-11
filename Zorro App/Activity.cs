@@ -11,11 +11,11 @@ public class Activity
     public DateTime Date { get; set; }
     public string? Location { get; set; }
     public double Miles { get; set; }
-    public int Elevation { get; set; }
-    public int Minutes { get; set; }
+    public double Elevation { get; set; }
+    public double Minutes { get; set; }
     public double Pace { get; set; }
 
-    public Activity(string type, DateTime date, string location, double miles, int minutes, int elevation, double pace)
+    public Activity(string type, DateTime date, string location, double miles, double minutes, double elevation, double pace)
     {
         Type = type;
         Location = location;

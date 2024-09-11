@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zorro App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee62d2f121a5d4940b865558cf5ead7b9c4bc510")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2b7c587f99e19d23abb5069738e11679bcca047")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zorro App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zorro App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
