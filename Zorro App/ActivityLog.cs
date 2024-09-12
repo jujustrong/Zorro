@@ -26,17 +26,26 @@ public class ActivityLog
         
     }
 
-    // public void DeleteActivity()
-    // {
-    //     if (activities.Count == 0) { Console.WriteLine("No activities logged yet!"); return;}
-    //     
-    //     ViewActivities();
-    //     Console.WriteLine("Enter the number of the activity you want to delete: ");
-    //     if (int.TryParse(Console.ReadLine(), out var activityChoice) && activityChoice > 0 && activityChoice <= activities.Count)
-    //     {
-    //         activities.RemoveAt(activityChoice - 1);
-    //         Console.WriteLine("Activity deleted successully");
-    //     }
-    // }
+    public void DeleteActivity()
+    {
+        if (activities.Count == 0) { Console.WriteLine("No activities logged yet!"); return;}
+        
+        ViewActivities();
+        Console.Write("Enter the number of the activity you want to delete: ");
+        var choiceSuccess = int.TryParse(Console.ReadLine(), out var activityChoice);
+        Console.Clear();
+        
+        while (!choiceSuccess && activityChoice !> 0 && activityChoice > activities.Count)
+        {
+            Console.WriteLine("Data Entry Error // Please enter a number in range..."); 
+            choiceSuccess = int.TryParse(Console.ReadLine(), out activityChoice);
+            Console.Clear();
+        }
+        
+        activities.RemoveAt(activityChoice - 1);
+        Console.WriteLine("Activity deleted successfully");
+        Console.Clear();
+    }
+    
 
 }    
